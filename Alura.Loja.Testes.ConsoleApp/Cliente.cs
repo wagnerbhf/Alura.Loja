@@ -1,0 +1,10 @@
+﻿namespace Alura.Loja.Testes.ConsoleApp
+{
+    public class Cliente
+    {
+        public int ClienteId { get; set; }
+        public string Nome { get; set; }
+        public Endereco EnderecoEntrega { get; set; }
+
+    }
+}
